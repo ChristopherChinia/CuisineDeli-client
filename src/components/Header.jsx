@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import { FaPizzaSlice,FaSearch, FaShoppingCart, FaUser, FaSun, FaMoon } from "react-icons/fa";
+import { FaPizzaSlice,FaSearch, FaSun, FaMoon } from "react-icons/fa";
 
 const Header = ({ isDarkMode, onDarkModeClick }) => {
   return (
@@ -9,7 +9,7 @@ const Header = ({ isDarkMode, onDarkModeClick }) => {
     <div className="icons">
       <ul>
         <li><FaSearch /></li>
-        <li onClick={onDarkModeClick}>  {isDarkMode ? <FaMoon/> : <FaSun />}  </li>
+        <li onClick={onDarkModeClick}>  {isDarkMode ? <FaMoon/> : <FaSun />} </li>
       </ul>
     </div>
   </div>

@@ -3,7 +3,7 @@ import './sidebar.css';
 import { FaTh, FaBars, FaUserAlt, FaCommentAlt, FaShoppingBag}from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
-const SideBar = ({extension}) => {
+const SideBar = ({children}) => {
   const[isOpen ,setIsOpen] = useState(false);
   const toggle = () => setIsOpen (!isOpen);
   const menuItem=[
@@ -46,7 +46,7 @@ const SideBar = ({extension}) => {
                    ))
                }
            </div>
-           <main>{extension}</main>
+           <main>{children}</main>
         </div>
     );
 }

@@ -5,7 +5,7 @@ import { FaPizzaSlice,FaSearch, FaShoppingCart, FaUser, FaSun, FaMoon } from "re
 const Header = ({ isDarkMode, onDarkModeClick }) => {
   return (
     <div className="header">
-    <h1> <FaPizzaSlice/> Cuisine delicacy</h1>
+    <h1 className="topic"> <FaPizzaSlice/> Cuisine delicacy</h1>
     <div className="icons">
       <ul>
         <li><FaSearch /></li>

@@ -21,9 +21,9 @@ function App() {
           <Header isDarkMode={isDarkMode} onDarkModeClick={handleDarkModeClick} />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/" element={<Products />} />
+              <Route path="/product" element={<Products />} />
               {/* <Route path="/" element={<Comments />} /> */}
-              <Route path="/" element={<About />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </SideBar>
         </BrowserRouter>

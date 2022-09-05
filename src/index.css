@@ -61,3 +61,30 @@
   grid-template-columns: 11rem auto 20rem;
   overflow: hidden;
 }
+
+@media screen and (max-width:1200px){
+  .AppGlass{
+    grid-template-columns:10% 50% auto;
+    overflow-y: scroll;
+  }
+  .sidebar{
+  background: #ff105f;
+  color: #fff;
+  height: 100%;
+  width: 200px;
+  transition: all 0.1s;
+  }
+}
+
+@media screen and (max-width:768px){
+  .AppGlass{
+    grid-template-columns: 1fr;
+  }
+  .sidebar{
+    background: #ff105f;
+    color: #fff;
+    height: 100rem;
+    width: 200px;
+    transition: all 0.1s;
+    }
+}

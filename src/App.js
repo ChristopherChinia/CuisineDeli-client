@@ -3,6 +3,7 @@ import SideBar from "./components/SideBar";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Products from "./components/Products";
+import About from "./components/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/" element={<Products />} />
               {/* <Route path="/" element={<Comments />} /> */}
-              {/* <Route path="/" element={<About />} /> */}
+              <Route path="/" element={<About />} />
             </Routes>
           </SideBar>
         </BrowserRouter>

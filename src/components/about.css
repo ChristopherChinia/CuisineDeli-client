@@ -1,0 +1,19 @@
+.aboutContainer{
+    display: flex;
+  }
+  
+  .footerOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .footerOne h3{
+    color: var(--black);
+    font-size: 1.5rem;
+  }
+  
+  .footerOne p{
+    font-size: 1.5rem;
+  }

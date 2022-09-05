@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './comment.css';
 import CommentForm from "./CommentForm";
 import CommentBox from "./CommentBox";
 

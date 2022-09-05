@@ -11,7 +11,7 @@ const Home = () =>{
             <h3>Today's special dish <BsEmojiHeartEyesFill/></h3>
             <span>spicy chicken </span>
             <p>Only Ksh 700 special offer! <BsEmojiSunglasses/></p>
-            <button className="btn">Learn more</button>
+            <button className="btn">Limited offer!</button>
           </div>
           <div className="imageOne">
             <img src="/images/home-img-2.png" alt="fried chicken" />

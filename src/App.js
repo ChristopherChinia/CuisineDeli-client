@@ -1,4 +1,5 @@
 import React from "react";
+import SideBar from "./components/SideBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -8,10 +9,10 @@ function App() {
         <BrowserRouter>
           <SideBar>
             <Routes>
-              <Route path="/" element={<Home />} />
+              {/* <Route path="/" element={<Home />} />
               <Route path="/" element={<Products />} />
               <Route path="/" element={<Comments />} />
-              <Route path="/" element={<About />} />
+              <Route path="/" element={<About />} /> */}
             </Routes>
           </SideBar>
         </BrowserRouter>

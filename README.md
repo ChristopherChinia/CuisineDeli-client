@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Cuisine Delicacy
+*****
+### Author : Christopher Chinia 7th September 2022
+****
+## Project Description
+Cuisine Delicacy is a web application that provides its client a way to rate its dishes and give feedback. Created using React javascript for frontend and  Ruby for backend. The application provides a simple yet elegant user interface and user experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## SCREENSHOTS
+![Homepage  Dark SCREENSHOTS](./public/images/)
 
-## Available Scripts
+![Homepage  Light SCREENSHOTS](./public/images/)
+ 
+![Products page SCREENSHOTS](./public/images/)
 
-In the project directory, you can run:
+![Comments page SCREENSHOTS](./public/images/)
 
-### `npm start`
+![About page SCREENSHOTS](./public/images/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+********
+## SetUp Instruction
+Run this command to get the backend started:
+```sh
+3. In a new terminal,run `npm install` in your terminal.
+4. Then, run `npm start`. This will run your React app on port `3000`.
+```
+Run this command to get the backend started:
 
-### `npm test`
+```sh
+1. Run `bundle install` in your terminal.
+2. Run `bundle exec rake server` in your terminal.This will run your backend on port `9292`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make sure to open [http://localhost:9292/comments](http://localhost:9292/comments) in the browser to verify that your backend is working before you proceed!
 
-### `npm run build`
+The base URL for your backend is: `http://localhost:9292`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Requirements
+* [HTML](lang Url)
+* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Getting Files
+* Fork the frontend repo [LINK.]()
+* Fork the frontback repo [LINK.]()
+- Create a new branch in your terminal (git checkout -b improve-feature)
+- Install the prerequisites
+- Make appropriate changes in file(s)
+- Run the server to see the changes
+- Add the changes and commit them (git commit -am "Improve App")
+- Push to the branch (git push origin improve-app)
+- Create a Pull request
+* Open the folder location on terminal and use the following command to run app:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How To Run It
+Run this command to get the backfront started:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm install
+```
 
-## Learn More
+```sh
+npm start
+```
+Make sure to run this command exactly as written,
+otherwise your server will
+not return data in the correct format. Test your server by visiting this route
+in the browser:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[http://localhost:3000](http://localhost:3000)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run this command to get the backend started:
 
-### Code Splitting
+```sh
+bundle install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+bundle exec rake server
+```
+Make sure to run this command exactly as written,
+otherwise your server will
+not return data in the correct format. Test your server by visiting this route
+in the browser:
 
-### Analyzing the Bundle Size
+[http://localhost:9292](http://localhost:9292/comments)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*****
+## Live Link
+Or you can access the web application directly via this [LINK.]() 
+*****
 
-### Making a Progressive Web App
+## Technologies Used
+1. HTML
+2. CSS
+3. JavaScript(React js)
+4. Netlify
+5. Glitch
+6. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*****
+## Contact Information
+* Email : christopher.chinia@student.moringaschool.com
+*****
+## [License](LICENSE)
+MIT License
+Copyright (c) 2022 Christopher Chinia

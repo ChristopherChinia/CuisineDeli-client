@@ -6,15 +6,15 @@
 Cuisine Delicacy is a web application that provides its client a way to rate its dishes and give feedback. Created using React javascript for frontend and  Ruby for backend. The application provides a simple yet elegant user interface and user experience.
 
 ## SCREENSHOTS
-![Homepage  Dark SCREENSHOTS](./public/images/)
+![Homepage  Dark SCREENSHOTS](./public/images/Dark%20home.png)
 
-![Homepage  Light SCREENSHOTS](./public/images/)
+![Homepage  Light SCREENSHOTS](./public/images/light%20home.png)
  
-![Products page SCREENSHOTS](./public/images/)
+![Products page SCREENSHOTS](./public/images/product.png)
 
-![Comments page SCREENSHOTS](./public/images/)
+![Comments page SCREENSHOTS](./public/images/comments.png)
 
-![About page SCREENSHOTS](./public/images/)
+![About page SCREENSHOTS](./public/images/about.png)
 
 
 ********
@@ -44,8 +44,8 @@ The base URL for your backend is: `http://localhost:9292`
 
 
 ### Getting Files
-* Fork the frontend repo [LINK.]()
-* Fork the frontback repo [LINK.]()
+* Fork the frontend repo [LINK.](https://github.com/ChristopherChinia/CuisineDeli-client.git)
+* Fork the backend repo [LINK.](https://github.com/ChristopherChinia/CuisineDelicacy-Server.git)
 - Create a new branch in your terminal (git checkout -b improve-feature)
 - Install the prerequisites
 - Make appropriate changes in file(s)

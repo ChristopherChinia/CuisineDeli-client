@@ -19,7 +19,7 @@ Cuisine Delicacy is a web application that provides its client a way to rate its
 
 ********
 ## SetUp Instruction
-Run this command to get the backend started:
+Run this command to get the frontend started:
 ```sh
 3. In a new terminal,run `npm install` in your terminal.
 4. Then, run `npm start`. This will run your React app on port `3000`.

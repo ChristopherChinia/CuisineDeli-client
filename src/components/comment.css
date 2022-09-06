@@ -1,121 +1,142 @@
 .review {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .review .sidebar {
-    height: 88vh;
-    min-width: 12em;
-    border-radius: 15px;
-    width: 30%;
-    border-right: solid #ff105f 1px;
-    background: #ffad06;
-    padding: 1em;
-  }
-  
-  .sidebar > button {
-    width: 100%;
-    display: inline-block;
-    background: black;
-    color: #ffad06;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: inherit;
-  }
-  
-  /* review container */
-  .flexInfo{
-    display: flex;
-    justify-content: space-between;
-  }
-  .review-container {
-    max-width: 30em;
-    margin: auto;
-  }
-  
-  .review-container > div {
-    border-bottom: solid 1px grey;
-    padding-bottom: 1em;
-    min-width: 20em;
-  }
-  
-  .review-container > div > button {
-    min-width: 4em;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .delete-btn, .btn-patch {
-    display: inline-block;
-    background: #ffad06;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: inherit;
-    cursor: pointer;
-  }
-  
-  .delete-btn:hover {
-    background: red;
-    color: black;
-  }
-  
-  /* review form */
-  form {
-    background-color: #ffad06;
-    margin-bottom: 40px;
-  }
-  
-  .form-control {
-    margin: 20px 0;
-  }
-  
-  .form-control label {
-    display: block;
-  }
-  
-  .form-control input {
-    width: 100%;
-    height: 40px;
-    margin: 5px;
-    padding: 5px;
-    font: size 17px;
-    border-radius: 5px;
-  }
-  
-  .form-control textarea {
-    width: 100%;
-    height: 100%;
-    margin: 5px;
-    padding: 5px;
-    font: size 17px;
-    border-radius: 5px;
-  }
-  
-  input[type="submit"] {
-    width: 100%;
-    display: inline-block;
-    background: black;
-    color: #ffad06;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: inherit;
-  }
+  display: flex;
+  flex-direction: row;
+}
+
+.review .sidebar {
+  height: 88vh;
+  min-width: 12em;
+  border-radius: 15px;
+  width: 30%;
+  border-right: solid #ff105f 1px;
+  background: #ffad06;
+  padding: 1em;
+}
+
+.sidebar > button {
+  width: 100%;
+  display: inline-block;
+  background: black;
+  color: #ffad06;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+/* review container */
+.flexInfo{
+  display: flex;
+  justify-content: space-between;
+}
+.review-container {
+  max-width: 30em;
+  margin: auto;
+}
+
+.review-container > div {
+  border-bottom: solid 1px grey;
+  padding-bottom: 1em;
+  min-width: 20em;
+}
+
+.review-container > div > button {
+  min-width: 4em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn, .btn-patch {
+  display: inline-block;
+  background: #ffad06;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #ff105f;
+  color: black;
+}
+
+/* review form */
+form {
+  background-color: #ffad06;
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  font: size 17px;
+  border-radius: 5px;
+}
+
+.form-control textarea {
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  padding: 5px;
+  font: size 17px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 97%;
+  display: inline-block;
+  background: black;
+  color: #ffad06;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+/* update comments */
+.update-form{
+  background-color: #ffad06;
+  margin-bottom: 40px;
+}
+
+.update-control{
+  margin: 20px 0;
+  width: 100%;
+}
+
+.update-control textarea {
+  width: 22rem;
+  height: 100%;
+  margin: 5px;
+  padding: 5px;
+  font: size 17px;
+  border-radius: 5px;
+}
+

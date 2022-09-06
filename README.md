@@ -56,7 +56,7 @@ The base URL for your backend is: `http://localhost:9292`
 * Open the folder location on terminal and use the following command to run app:
 
 ## How To Run It
-Run this command to get the backfront started:
+Run this command to get the frontend started:
 
 ```sh
 npm install

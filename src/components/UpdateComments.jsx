@@ -7,7 +7,7 @@ function UpdateComments({ id, feedback, onUpdateMessage }) {
   function handleFormSubmit(e) {
     e.preventDefault();
 
-    fetch(`http://localhost:4000/Books/${id}`, {
+    fetch(`http://localhost:9292/comments/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

@@ -6,7 +6,7 @@ const CommentBox = ({onUpdateMessage}) => {
   const [review, displayReview] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/Books")
+    fetch("http://localhost:9292/comments")
       .then((r) => r.json())
       .then((data) => {
         displayReview(data);

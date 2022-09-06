@@ -5,14 +5,14 @@ import {AiFillDelete} from "react-icons/ai";
 import {RiQuillPenFill} from "react-icons/ri";
 
 const Comment = ({ view, onDelete, onUpdateMessage }) => {
-  const { id, food, feedback, author, created_at: createdAt } = view;
+  const { id, food, feedback, author, updated_at: updatedAt } = view;
   const [isEditing, setIsEditing] = useState(false);
-  const timestamp = new Date(createdAt).toLocaleTimeString();
+  const timestamp = new Date(updatedAt).toLocaleTimeString();
   
 
 
   function deleteReview() {
-    fetch(`http://localhost:4000/Books/${view.id}`, {
+    fetch(`http://localhost:9292/comments/${view.id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

@@ -3,7 +3,7 @@ import React,{ useState} from 'react'
 
 const CommentForm = () => {
     const [author, setAuthor] = useState("");
-    const [meal, setMeal] = useState("");
+    const [food, setFood] = useState("");
     const [feedback, setFeedback] = useState("");
   
 
@@ -11,8 +11,8 @@ const CommentForm = () => {
       setAuthor(event.target.value);
     }
 
-    function HandleMealChange(event) {
-        setMeal(event.target.value);
+    function HandleFoodChange(event) {
+        setFood(event.target.value);
       }
 
       function HandleFeedbackChange(event) {
@@ -23,11 +23,11 @@ const CommentForm = () => {
         e.preventDefault();
         const sumData = {
           author: author,
-          meal: meal,
+          food: food,
           feedback: feedback,
         };
     
-        fetch("http://localhost:4000/Books",{
+        fetch("http://localhost:9292/comments",{
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -36,7 +36,7 @@ const CommentForm = () => {
         });
     
         setAuthor("");
-        setMeal("");
+        setFood("");
         setFeedback("");
       }
 
@@ -53,10 +53,11 @@ const CommentForm = () => {
 
 
     <div className="form-control">
-        <label>Meal</label>
-        <input  placeholder="Meal" required
-        onChange={HandleMealChange}
-        value={meal}
+        <label>Food</label>
+        <input  placeholder="Food" 
+        required
+        onChange={HandleFoodChange}
+        value={food}
     />
     </div>
 

@@ -7,7 +7,7 @@ const Products = () => {
   const [foods, displayfoods] = useState([]);
 
   useEffect(() => {
-    fetch("")
+    fetch("https://rose-blossom-snowdrop.glitch.me/foodies")
       .then((r) => r.json())
       .then((data) => {
         displayfoods(data);

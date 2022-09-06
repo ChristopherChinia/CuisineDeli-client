@@ -28,7 +28,7 @@
   font-family: inherit;
 }
 
-/* review container */
+/* comments box */
 .flexInfo{
   display: flex;
   justify-content: space-between;
@@ -73,7 +73,7 @@
   color: black;
 }
 
-/* review form */
+/* comment form */
 form {
   background-color: #ffad06;
   margin-bottom: 40px;
@@ -132,9 +132,9 @@ input[type="submit"] {
 }
 
 .update-control textarea {
-  width: 22rem;
+  width: 97%;
   height: 100%;
-  margin: 5px;
+  margin: 5px 0px 0px 8px;
   padding: 5px;
   font: size 17px;
   border-radius: 5px;

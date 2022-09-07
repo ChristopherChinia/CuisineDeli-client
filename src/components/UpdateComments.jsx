@@ -21,8 +21,8 @@ function UpdateComments({ id, feedback, onUpdateMessage }) {
   }
 
   return (
-       <form className="add-form" onSubmit={handleFormSubmit}>
-<div className="form-control">
+       <form className="update-form" onSubmit={handleFormSubmit}>
+<div className="update-control">
         <textarea
         placeholder="Make changes"
         rows={10}

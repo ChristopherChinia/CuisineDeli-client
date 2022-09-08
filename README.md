@@ -90,7 +90,7 @@ in the browser:
 
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.]() 
+Or you can access the web application directly via this [LINK.](https://cuisinedeli.netlify.app) 
 *****
 
 ## Technologies Used
@@ -99,7 +99,7 @@ Or you can access the web application directly via this [LINK.]()
 3. JavaScript(React js)
 4. Netlify
 5. Glitch
-6. 
+6. Heroku
 
 
 *****

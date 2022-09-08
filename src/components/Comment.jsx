@@ -12,7 +12,7 @@ const Comment = ({ view, onDelete, onUpdateMessage }) => {
 
 
   function deleteReview() {
-    fetch(`http://localhost:9292/comments/${view.id}`, {
+    fetch(`https://safe-reaches-42746.herokuapp.com/comments/${view.id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

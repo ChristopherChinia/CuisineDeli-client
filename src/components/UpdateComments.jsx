@@ -7,7 +7,7 @@ function UpdateComments({ id, feedback, onUpdateMessage }) {
   function handleFormSubmit(e) {
     e.preventDefault();
 
-    fetch(`http://localhost:9292/comments/${id}`, {
+    fetch(`https://safe-reaches-42746.herokuapp.com/comments/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

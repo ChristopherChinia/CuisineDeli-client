@@ -6,7 +6,7 @@ const CommentBox = ({onUpdateMessage}) => {
   const [review, displayReview] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:9292/comments")
+    fetch("https://safe-reaches-42746.herokuapp.com/comments")
       .then((r) => r.json())
       .then((data) => {
         displayReview(data);
